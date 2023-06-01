@@ -1,14 +1,11 @@
-'use strict';
+"use strict";
+
 {
-  const open = document.getElementById('open');
-  const spContent = document.querySelector('.sp-content');
+  const open = document.getElementById("open");
+  const overlay = document.querySelector(".overlay");
 
-  open.addEventListener('click', () => {
-    spContent.classList.add('show');
-    open.classList.add('hide');
+  open.addEventListener("click", () => {
+    overlay.classList.add("show");
+    open.classList.add("hide");
   });
-
-  // spContent.addEventListener('click', () => {
-  //   alert();
-  // });
 }
