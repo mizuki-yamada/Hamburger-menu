@@ -20,15 +20,15 @@
     - divなのか、spanなのか、ulの外をnavで囲むのはなぜなのかが説明できない
         - [div](https://developer.mozilla.org/ja/docs/Web/HTML/Element/div)
             - フローコンテンツの汎用コンテナー
-            - 他に適切な意味的要素（<article> や <nav> など）がない場合に限り使用する
+            - 他に適切な意味的要素（`<article>` や `<nav>` など）がない場合に限り使用する
             - ブロック要素
         - [span](https://developer.mozilla.org/ja/docs/Web/HTML/Element/span)
             - インライン要素（divとの違い）
-            - 他に適切な意味的要素（<article> や <nav> など）がない場合に限り使用するという点で、divと同義
+            - 他に適切な意味的要素（`<article>` や `<nav> `など）がない場合に限り使用するという点で、divと同義
             - 許可されている親要素がdivと異なる
                 - 記述コンテンツとフローコンテンツ両方OK（divはフローコンテンツのみ）
         - [nav](https://developer.mozilla.org/ja/docs/Web/HTML/Element/nav)
             - 現在の文書内の他の部分や他の文書へのナビゲーションリンクを提供するためのセクションを表す。一般的な例としてメニュー、目次、索引
-            - 使用例：リンクの番号なしリスト (<ul>) を包含するために <nav> ブロックを使用
+            - 使用例：リンクの番号なしリスト`(<ul>) `を包含するために `<nav> `ブロックを使用
 
 ## 3回目
